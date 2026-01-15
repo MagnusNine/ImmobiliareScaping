@@ -2,7 +2,7 @@
 
 winget install -e --id Python.Python.3
 
-pip install pandas undetected-chromedriver beautifulsoup4 selenium
+pip install --upgrade setuptools pandas undetected-chromedriver beautifulsoup4 selenium openpyxl
 
 # Eventually a bat file:
 @echo off
